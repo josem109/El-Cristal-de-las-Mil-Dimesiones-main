@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Press Start 2P', sans-serif;
+  color: #eee;
+  background-color: #121212;
+  /* background-color: #60b347; */
+}
+
+/* LAYOUT */
+header {
+  position: relative;
+  height: 15vh;
+  border-bottom: 7px solid #eee;
+}
+
+main {
+  height: 65vh;
+  color: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.left {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 7px solid #eee;
+  border: 7px solid #eee;
+  height: 65vh;
+}
+.left-footer {
+  width: 25%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: 7px solid #eee;
+  border: 7px solid #eee;
+  height: 20vh;
+  font-family: 'Press Start 2P', sans-serif;
+  font-size: 28px;
+  padding: 2em;
+}
+.center-footer {
+  width: 50%;
+  border-bottom: 7px solid #eee;
+  border: 7px solid #eee;
+  height: 20vh;
+}
+.right-footer {
+  width: 25%;
+  border-bottom: 7px solid #eee;
+  border: 7px solid #eee;
+  height: 20vh;
+  font-family: 'Press Start 2P', sans-serif;
+  font-size: 0.7em;
+  padding: 2em;
+}
+footer {
+  display: flex;
+}
+.char-menu {
+  font-size: 4em;
+  list-style: none;
+}
+
+.right {
+  width: 50%;
+
+  border: 7px solid #eee;
+  height: 65vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ELEMENTS STYLE */
+h1 {
+  font-size: 4rem;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  top: 52%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#attack {
+  text-decoration: underline;
+}
+#defend {
+  text-decoration: none;
+}
+#magic {
+  text-decoration: none;
+}
+#d1-1 {
+  /* border: 7px solid #eee; */
+  width: 33%;
+}
+#d1-2 {
+  /*border: 7px solid #eee;*/
+  width: 33%;
+}
+#d1-3 {
+  /* border: 7px solid #eee; */
+  width: 33%;
+}
+#d2-1 {
+  /* border: 7px solid #eee; */
+  width: 33%;
+}
+#d2-2 {
+  /* border: 7px solid #eee; */
+  width: 33%;
+}
+#d2-3 {
+  /* border: 7px solid #eee; */
+  width: 33%;
+}
+#d3-1 {
+  /* border: 7px solid #eee; */
+  width: 33%;
+}
+#d3-2 {
+  /* border: 7px solid #eee; */
+  width: 33%;
+}
+#d3-3 {
+  /* border: 7px solid #eee; */
+  width: 33%;
+}
+.row1 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 33%;
+}
+.monster {
+  width: 7em;
+  margin: 3em;
+}
+li {
+  padding: 0.25em;
+}
+.character_status {
+  list-style: none;
+}
+
+.li-indicator {
+  display: flex;
+  align-items: center;
+}
+.indicator {
+  margin-left: 1em;
+}
+.potion {
+  width: 1.2em;
+}
