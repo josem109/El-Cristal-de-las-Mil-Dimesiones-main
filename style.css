@@ -41,6 +41,10 @@ main {
   border-bottom: 7px solid #eee;
   border: 7px solid #eee;
   height: 65vh;
+  justify-content: center;
+}
+.hero-area {
+  align-items: center;
 }
 .left-footer {
   width: 25%;
@@ -167,4 +171,7 @@ li {
 }
 .potion {
   width: 1.2em;
+}
+#hero {
+  width: 20em;
 }
