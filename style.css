@@ -63,6 +63,10 @@ main {
   border-bottom: 7px solid #eee;
   border: 7px solid #eee;
   height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .right-footer {
   width: 25%;
@@ -155,7 +159,11 @@ h1 {
 }
 .monster {
   width: 6em;
-  height: 10em;
+  height: 6em;
+}
+.hit {
+  position: relative;
+  padding-left: 1.5em;
 }
 li {
   padding: 0.25em;
@@ -176,9 +184,13 @@ li {
 }
 #hero {
   width: 20em;
+  position: absolute;
 }
 .monster_container {
   padding: 2em;
+}
+.gems {
+  width: 15em;
 }
 
 /* Health Bar */
