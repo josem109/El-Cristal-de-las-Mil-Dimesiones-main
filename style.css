@@ -164,6 +164,7 @@ h1 {
 .hit {
   position: relative;
   padding-left: 1.5em;
+  display: none;
 }
 li {
   padding: 0.25em;
