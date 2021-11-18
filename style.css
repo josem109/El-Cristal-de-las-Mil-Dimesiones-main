@@ -104,9 +104,7 @@ h1 {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-#attack {
-  text-decoration: underline;
-}
+
 #defend {
   text-decoration: none;
 }
@@ -125,27 +123,27 @@ h1 {
   /* border: 7px solid #eee; */
   display: flex;
 }
-#d2-1 {
+#d1-4 {
   /* border: 7px solid #eee; */
   display: flex;
 }
-#d2-2 {
+#d1-5 {
   /* border: 7px solid #eee; */
   display: flex;
 }
-#d2-3 {
+#d1-6 {
   /* border: 7px solid #eee; */
   display: flex;
 }
-#d3-1 {
+#d1-7 {
   /* border: 7px solid #eee; */
   display: flex;
 }
-#d3-2 {
+#d1-8 {
   /* border: 7px solid #eee; */
   display: flex;
 }
-#d3-3 {
+#d1-9 {
   /* border: 7px solid #eee; */
   display: flex;
 }
@@ -288,4 +286,13 @@ li {
 }
 .energy-bar .levelbar {
   background-color: #2391de;
+}
+#attack:hover {
+  text-decoration: underline;
+}
+#defend:hover {
+  text-decoration: underline;
+}
+#magic:hover {
+  text-decoration: underline;
 }
